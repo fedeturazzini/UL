@@ -1,3 +1,19 @@
 <resources>
+
+    /* App Name */
     <string name="app_name">UalaEjercicio</string>
+
+    /* Welcome msgs */
+    <string name="welcome_message">Bienvenido a la biblioteca Ualá</string>
+
+    /* Warning msgs */
+    <string name="conection_error">Hubo un error con la conexion. Intente de nuevo.</string>
+
+    /* Books strings */
+    <string name="available">Disponible</string>
+    <string name="not_available">No disponible</string>
+
+    /* Otros strings */
+    <string name="volver">Volver</string>
+
 </resources>
