@@ -55,9 +55,11 @@ public class BookDetailActivity extends AppCompatActivity {
         if (!bookImagenSelectedDetail.equals("")) {
             Picasso.get().load(bookImagenSelectedDetail)
                     .resize(300,200)
-                    .centerCrop()
                     .placeholder(R.drawable.noimage)
+                    .centerCrop()
                     .into(bookImage);
+        } else {
+            bookImage.setBackgroundResource(R.drawable.noimage);
         }
 
         button = findViewById(R.id.backButton);
